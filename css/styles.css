@@ -248,6 +248,9 @@ span {
 /*=================Qualities list=================*/
 .section-quality {
   background-color: var(--primary-background-color);
+  width: 1600px;
+  margin: 0 auto;
+  padding-top: 94px;
 }
 .qualities-list {
   display: flex;
