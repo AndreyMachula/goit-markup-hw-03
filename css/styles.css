@@ -437,10 +437,12 @@ span {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
-  border: 1px solid var(--border-card-color);
+  /* border: 1px solid var(--border-card-color); */
   background: var(--primary-background-color);
 }
 .portfolio-list-content {
   padding: 20px 24px;
+  border: 1px solid var(--border-card-color);
+  border-top: 0;
 }
 /*=================End works list=================*/
