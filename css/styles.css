@@ -52,11 +52,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding: 0;
-  margin: 0;
-  background: var(--the-background);
-  width: 100%;
-  display: table;
 }
 
 .container {
@@ -73,7 +68,6 @@ body {
 }
 
 .section {
-  width: 1600px;
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -123,16 +117,15 @@ body {
 /*////////////////////// HEADER //////////////////////*/
 .page-header {
   background-color: #fff;
-  width: 1600px;
   margin: 0 auto;
   border-bottom: 1px solid var(--border-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 /*=================Logo=================*/
@@ -204,13 +197,13 @@ span {
 /*=================Hero=================*/
 .section-hero {
   background-color: var(--blaсk-background-color);
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
-  padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -248,7 +241,6 @@ span {
 /*=================Qualities list=================*/
 .section-quality {
   background-color: var(--primary-background-color);
-  width: 1600px;
   margin: 0 auto;
   padding-top: 94px;
 }
@@ -316,6 +308,7 @@ span {
 
 .participants-list-content {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .participant-name {
@@ -331,7 +324,6 @@ span {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin-bottom: 30px;
 }
 /*=================End team=================*/
 
@@ -340,7 +332,6 @@ span {
 /*////////////////////// FOOTER //////////////////////*/
 .footer {
   background-color: var(--blaсk-background-color);
-  width: 1600px;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
